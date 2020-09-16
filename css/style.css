@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+/*This is a comment*/
+.mainDiv {
+    background-color: cadetblue;
+    height: 620px;
+    width: 620px;
+    margin: 0 auto;
+}
+
+.mainDiv > div {
+    margin: 0 auto;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+}
+
+p {
+    padding: 50px;
+}
+
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.yellow {    
+    height: 200px;
+    width: 200px;
+    background-color: yellow; 
+    text-align: center;
+    /*visibility: hidden;  */
+   /* display: none; */
+}
+.green {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    text-align: right;
+}
